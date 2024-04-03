@@ -1,1 +1,3 @@
 com\managedBean\UserManagedBean.class
+com\managedBean\UserResource.class
+com\managedBean\ApplicationConfig.class
