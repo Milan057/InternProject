@@ -5,6 +5,8 @@
  */
 package com.managedBean;
 
+import com.sessionBean.MainSessionBean;
+import javax.ejb.EJB;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ViewScoped;
 
@@ -15,5 +17,9 @@ import javax.faces.bean.ViewScoped;
 @ViewScoped
 @ManagedBean
 public class UserManagedBean {
-    
+
+    @EJB
+    private MainSessionBean mainSessionBean;
+
+  
 }
