@@ -24,8 +24,6 @@ public class MainSessionBean {
     public String createUser(String name, String password,
             String rePassword, String email, String address,
             String contactNumber, String userType) {
-        if(name.isEmpty() || password.isEmpty() || rePassword.isEmpty() || email.isEmpty() ){
-        }
         User user=new User();
         user.setActive(true);
         user.setStatus(true);
